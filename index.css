@@ -1,0 +1,79 @@
+* {
+    transition: all 0.25s;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    background-color: rgb(6, 30, 49);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 120%;
+  }
+  
+  #encabezado {
+    width: 50vw;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(234, 234, 234, 0.477);
+    border-radius: 60px;
+    margin: 10px;
+    padding: 10px;
+    
+  }
+  
+  
+  .opcion {
+    text-align: center;
+    width: 50vw;
+    background: rgba(255, 255, 255, 0.395);
+    border-radius: 60px;
+    margin: 15px;
+    padding: 9px;
+    cursor: pointer;
+  }
+  
+  .opcion:hover{
+       background: rgb(1, 217, 255);
+  }
+  
+  
+  #tiempo {
+    text-align: center;
+    color: white;
+  }
+  
+  #ayuda {
+    position: absolute; /* Establece la posición absoluta para poder moverlo libremente */
+    top: 700px; /* Cambia la distancia desde la parte superior según tus preferencias */
+    left: 715px; /* Cambia la distancia desde la izquierda según tus preferencias */
+    background: rgba(1, 234, 255, 0.781);
+  }
+  
+  /* Estilo para el círculo */
+  .circle {
+    width: 50px; /* Diámetro del círculo */
+    height: 50px; /* Diámetro del círculo */
+    background-color: black; /* Color de fondo del círculo */
+    border-radius: 50%; /* Hace que el elemento tenga forma de círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Color del texto del puntaje */
+    font-size: 24px; /* Tamaño de fuente del puntaje */
+    font-weight: bold; /* Negrita del puntaje */
+    
+    /* Propiedades de posicionamiento */
+    position: absolute; /* Cambia a 'relative' si es necesario */
+    top: 170px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    left: 1044px; /* Ajusta la distancia desde la izquierda según tus necesidades */
+  }
